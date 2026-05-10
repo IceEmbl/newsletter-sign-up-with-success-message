@@ -3,6 +3,7 @@ const emailInput = document.getElementById("email");
 const errorMessage = document.getElementById("email-error");
 const article = document.getElementById("article");
 
+if (form && emailInput && errorMessage && article) {
 form.addEventListener("submit", (e) => {
     e.preventDefault();
 
@@ -23,3 +24,4 @@ form.addEventListener("submit", (e) => {
     }
     
 });
+}
